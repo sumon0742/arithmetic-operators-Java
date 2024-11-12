@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        int phonePrice=1800,numberOfInstallment,numberofInstallmentPermonth;
+        System.out.println("Enter the installment number: ");
+        Scanner input= new Scanner(System.in);
+        numberOfInstallment=input.nextInt();
+        numberofInstallmentPermonth=phonePrice/numberOfInstallment;
+        System.out.println("Number of installment per month: "+numberofInstallmentPermonth);
+        
+    }
+}
